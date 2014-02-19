@@ -7,6 +7,7 @@
 //
 
 #import "SuperCardViewController.h"
+#import "PlayingCardView.h"
 
 @interface SuperCardViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.cardView.suit = @"♥️";
+    self.cardView.rank = 13;
 }
 
 - (void)didReceiveMemoryWarning

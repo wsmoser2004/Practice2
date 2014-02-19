@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayingCardView.h"
 
 @interface SuperCardViewController : UIViewController
+@property (weak, nonatomic) IBOutlet PlayingCardView *cardView;
 
 @end
