@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3808FB18B45EB900FB7F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3808FA18B45EB900FB7F48 /* Foundation.framework */; };
+		EF3808FD18B45EB900FB7F48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3808FC18B45EB900FB7F48 /* CoreGraphics.framework */; };
+		EF3808FF18B45EB900FB7F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3808FE18B45EB900FB7F48 /* UIKit.framework */; };
+		EF38090518B45EB900FB7F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF38090318B45EB900FB7F48 /* InfoPlist.strings */; };
+		EF38090718B45EB900FB7F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF38090618B45EB900FB7F48 /* main.m */; };
+		EF38090B18B45EB900FB7F48 /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF38090A18B45EB900FB7F48 /* SuperCardAppDelegate.m */; };
+		EF38090E18B45EB900FB7F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF38090C18B45EB900FB7F48 /* Main.storyboard */; };
+		EF38091118B45EB900FB7F48 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF38091018B45EB900FB7F48 /* SuperCardViewController.m */; };
+		EF38091318B45EB900FB7F48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF38091218B45EB900FB7F48 /* Images.xcassets */; };
+		EF38091A18B45EB900FB7F48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF38091918B45EB900FB7F48 /* XCTest.framework */; };
+		EF38091B18B45EB900FB7F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3808FA18B45EB900FB7F48 /* Foundation.framework */; };
+		EF38091C18B45EB900FB7F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3808FE18B45EB900FB7F48 /* UIKit.framework */; };
+		EF38092418B45EB900FB7F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF38092218B45EB900FB7F48 /* InfoPlist.strings */; };
+		EF38092618B45EB900FB7F48 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF38092518B45EB900FB7F48 /* SuperCardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF38091D18B45EB900FB7F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3808EF18B45EB900FB7F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3808F618B45EB900FB7F48;
+			remoteInfo = SuperCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF3808F718B45EB900FB7F48 /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3808FA18B45EB900FB7F48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF3808FC18B45EB900FB7F48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF3808FE18B45EB900FB7F48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF38090218B45EB900FB7F48 /* SuperCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCard-Info.plist"; sourceTree = "<group>"; };
+		EF38090418B45EB900FB7F48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF38090618B45EB900FB7F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF38090818B45EB900FB7F48 /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
+		EF38090918B45EB900FB7F48 /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
+		EF38090A18B45EB900FB7F48 /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
+		EF38090D18B45EB900FB7F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF38090F18B45EB900FB7F48 /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
+		EF38091018B45EB900FB7F48 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
+		EF38091218B45EB900FB7F48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF38091818B45EB900FB7F48 /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38091918B45EB900FB7F48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF38092118B45EB900FB7F48 /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
+		EF38092318B45EB900FB7F48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF38092518B45EB900FB7F48 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3808F418B45EB900FB7F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3808FD18B45EB900FB7F48 /* CoreGraphics.framework in Frameworks */,
+				EF3808FF18B45EB900FB7F48 /* UIKit.framework in Frameworks */,
+				EF3808FB18B45EB900FB7F48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38091518B45EB900FB7F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38091A18B45EB900FB7F48 /* XCTest.framework in Frameworks */,
+				EF38091C18B45EB900FB7F48 /* UIKit.framework in Frameworks */,
+				EF38091B18B45EB900FB7F48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3808EE18B45EB900FB7F48 = {
+			isa = PBXGroup;
+			children = (
+				EF38090018B45EB900FB7F48 /* SuperCard */,
+				EF38091F18B45EB900FB7F48 /* SuperCardTests */,
+				EF3808F918B45EB900FB7F48 /* Frameworks */,
+				EF3808F818B45EB900FB7F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3808F818B45EB900FB7F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3808F718B45EB900FB7F48 /* SuperCard.app */,
+				EF38091818B45EB900FB7F48 /* SuperCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3808F918B45EB900FB7F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3808FA18B45EB900FB7F48 /* Foundation.framework */,
+				EF3808FC18B45EB900FB7F48 /* CoreGraphics.framework */,
+				EF3808FE18B45EB900FB7F48 /* UIKit.framework */,
+				EF38091918B45EB900FB7F48 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF38090018B45EB900FB7F48 /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				EF38090918B45EB900FB7F48 /* SuperCardAppDelegate.h */,
+				EF38090A18B45EB900FB7F48 /* SuperCardAppDelegate.m */,
+				EF38090C18B45EB900FB7F48 /* Main.storyboard */,
+				EF38090F18B45EB900FB7F48 /* SuperCardViewController.h */,
+				EF38091018B45EB900FB7F48 /* SuperCardViewController.m */,
+				EF38091218B45EB900FB7F48 /* Images.xcassets */,
+				EF38090118B45EB900FB7F48 /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		EF38090118B45EB900FB7F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF38090218B45EB900FB7F48 /* SuperCard-Info.plist */,
+				EF38090318B45EB900FB7F48 /* InfoPlist.strings */,
+				EF38090618B45EB900FB7F48 /* main.m */,
+				EF38090818B45EB900FB7F48 /* SuperCard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF38091F18B45EB900FB7F48 /* SuperCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF38092518B45EB900FB7F48 /* SuperCardTests.m */,
+				EF38092018B45EB900FB7F48 /* Supporting Files */,
+			);
+			path = SuperCardTests;
+			sourceTree = "<group>";
+		};
+		EF38092018B45EB900FB7F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF38092118B45EB900FB7F48 /* SuperCardTests-Info.plist */,
+				EF38092218B45EB900FB7F48 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3808F618B45EB900FB7F48 /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF38092918B45EB900FB7F48 /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				EF3808F318B45EB900FB7F48 /* Sources */,
+				EF3808F418B45EB900FB7F48 /* Frameworks */,
+				EF3808F518B45EB900FB7F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = EF3808F718B45EB900FB7F48 /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF38091718B45EB900FB7F48 /* SuperCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF38092C18B45EB900FB7F48 /* Build configuration list for PBXNativeTarget "SuperCardTests" */;
+			buildPhases = (
+				EF38091418B45EB900FB7F48 /* Sources */,
+				EF38091518B45EB900FB7F48 /* Frameworks */,
+				EF38091618B45EB900FB7F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF38091E18B45EB900FB7F48 /* PBXTargetDependency */,
+			);
+			name = SuperCardTests;
+			productName = SuperCardTests;
+			productReference = EF38091818B45EB900FB7F48 /* SuperCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3808EF18B45EB900FB7F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SuperCard;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Moser, Wesley";
+				TargetAttributes = {
+					EF38091718B45EB900FB7F48 = {
+						TestTargetID = EF3808F618B45EB900FB7F48;
+					};
+				};
+			};
+			buildConfigurationList = EF3808F218B45EB900FB7F48 /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3808EE18B45EB900FB7F48;
+			productRefGroup = EF3808F818B45EB900FB7F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3808F618B45EB900FB7F48 /* SuperCard */,
+				EF38091718B45EB900FB7F48 /* SuperCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3808F518B45EB900FB7F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38091318B45EB900FB7F48 /* Images.xcassets in Resources */,
+				EF38090518B45EB900FB7F48 /* InfoPlist.strings in Resources */,
+				EF38090E18B45EB900FB7F48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38091618B45EB900FB7F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38092418B45EB900FB7F48 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3808F318B45EB900FB7F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38090B18B45EB900FB7F48 /* SuperCardAppDelegate.m in Sources */,
+				EF38090718B45EB900FB7F48 /* main.m in Sources */,
+				EF38091118B45EB900FB7F48 /* SuperCardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38091418B45EB900FB7F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38092618B45EB900FB7F48 /* SuperCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF38091E18B45EB900FB7F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3808F618B45EB900FB7F48 /* SuperCard */;
+			targetProxy = EF38091D18B45EB900FB7F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF38090318B45EB900FB7F48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF38090418B45EB900FB7F48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF38090C18B45EB900FB7F48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF38090D18B45EB900FB7F48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF38092218B45EB900FB7F48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF38092318B45EB900FB7F48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF38092718B45EB900FB7F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF38092818B45EB900FB7F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF38092A18B45EB900FB7F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF38092B18B45EB900FB7F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF38092D18B45EB900FB7F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SuperCardTests/SuperCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF38092E18B45EB900FB7F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCardTests/SuperCardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3808F218B45EB900FB7F48 /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38092718B45EB900FB7F48 /* Debug */,
+				EF38092818B45EB900FB7F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF38092918B45EB900FB7F48 /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38092A18B45EB900FB7F48 /* Debug */,
+				EF38092B18B45EB900FB7F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF38092C18B45EB900FB7F48 /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38092D18B45EB900FB7F48 /* Debug */,
+				EF38092E18B45EB900FB7F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3808EF18B45EB900FB7F48 /* Project object */;
+}
